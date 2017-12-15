@@ -49,6 +49,13 @@ describe('helper#hasRootPathPrefixInString', () => {
     expect(withRootPathPrefix).to.be.true;
   });
 
+  it('check if "@nl/" is at the beginning of the string', () => {
+    const withoutRootPathPrefix = hasRootPathPrefixInString('some/path');
+    const withRootPathPrefix = hasRootPathPrefixInString('@nl/some/path', '@nl');
+    expect(withoutRootPathPrefix).to.be.false;
+    expect(withRootPathPrefix).to.be.true;
+  });
+
   it('returns false if no string is passed', () => {
     const nothingPassed = hasRootPathPrefixInString();
     const wrongTypePassed = hasRootPathPrefixInString([]);

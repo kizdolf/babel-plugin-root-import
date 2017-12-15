@@ -1,15 +1,16 @@
 {
-  "name": "babel-plugin-root-import",
+  "name": "babel-plugin-root-import-multi-char",
   "version": "5.1.0",
   "description": "Babel Plugin to enable relative root-import",
   "author": "Michael J. Zoidl <github@michaelzoidl.com>",
+  "contributors":"Jules Buret <jules.buret@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "index.js",
     "build"
   ],
-  "repository": "entwicklerstube/babel-plugin-root-import",
+  "repository": "github.com/kizdolf/babel-plugin-root-import",
   "scripts": {
     "test": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register",
     "test-watch": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register --watch",

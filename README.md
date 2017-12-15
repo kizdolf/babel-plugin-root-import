@@ -1,3 +1,5 @@
+That's a fork from https://github.com/entwicklerstube/babel-plugin-root-import included multi-char prefix.
+
 # Babel Root Import
 Babel plugin to add the opportunity to use `import` and `require` with root based paths.<br>
 [![Build Status](https://travis-ci.org/entwicklerstube/babel-plugin-root-import.svg?branch=master)](https://travis-ci.org/entwicklerstube/babel-plugin-root-import)
